@@ -180,7 +180,7 @@ function changeLink0(){
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[0]);
-  container.html('<h1>'+contents[0]+'</h1><p>Welcome to Brainchild.work</p>');
+  container.html('<h2>'+contents[0]+'</h2><p>Welcome to Brainchild.work</p>');
 }
 function changeLink1(){
   check=true;
