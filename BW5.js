@@ -76,7 +76,7 @@ function conts(){
 
 }
 function hideContainer(){
-  container.hides();
+  container.hide();
 
 
 }
