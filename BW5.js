@@ -95,6 +95,11 @@ function windowResized(){
 
 function draw(){
   background(0,0,188);
+
+  //loading animation
+
+//loading animation ends
+
 cnv.mousePressed(mP);
   //loading animation
 for(var i=0;i<8;i++){
@@ -109,7 +114,6 @@ for(var i=0;i<8;i++){
   homeH[i].position(width/8+cos(frameCount/10.0-i*TWO_PI/8.0)*10,(i+1)*height/10);
 
 }
-//loading animation ends
 
   /*
 if(mouseIsPressed){
