@@ -52,7 +52,7 @@ container.id('container');
 container.hide();
 container.position(width/2,height/10);
 container.size(3*width/8,8*height/10);
-
+cnv.mousePressed(hideContainer);
 
 
 //frameRate(24); //for android mobiles
@@ -72,6 +72,11 @@ but2.mousePressed(buttonAction2);
 
 function conts(){
   container.show();
+
+
+}
+function hideContainer(){
+  container.hides();
 
 
 }
