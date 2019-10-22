@@ -180,48 +180,56 @@ function changeLink0(){
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[0]);
-  container.html('<h2>'+contents[0]+'</h2><p>Welcome to Brainchild.work</p>');
+  changeContainer(0);
+
 }
 function changeLink1(){
   check=true;
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[1]);
+  changeContainer(1);
 }function changeLink2(){
   check=true;
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[2]);
+  changeContainer(2);
 }
 function changeLink3(){
   check=true;
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[3]);
+  changeContainer(3);
 }
 function changeLink4(){
   check=true;
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[4]);
+  changeContainer(4);
 }
 function changeLink5(){
   check=true;
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[5]);
+  changeContainer(5);
 }
 function changeLink6(){
   check=true;
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[6]);
+  changeContainer(6);
 }
 function changeLink7(){
   check=true;
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[7]);
+  changeContainer(7);
 }
 function rechangeLink(){
 
@@ -229,6 +237,9 @@ function rechangeLink(){
   this.html('This is BrainChild.work');
   this.style('color','#fff');
 
+}
+function changeContainer(x){
+  container.html('<h2>'+contents[x]+'</h2><p>Welcome to Brainchild.work</p>');
 }
 
 
