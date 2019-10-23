@@ -143,10 +143,14 @@ y+=dy * easing;
 //rotateX(y);
 rotateY(x);
 
-
+push();
+translate(-width/2,height/4);
+box(10);
+pop();
 //torus();
 //box();
 //translate(0,map(weightControl,100,800,-10,10));
+
 translate(0,tan(frameCount/50.0)*10);
 model(brain);
 
