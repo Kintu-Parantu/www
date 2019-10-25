@@ -18,7 +18,7 @@ var homeH=[];
 var container;
 var link;
 var contents = ['This is BrainChild.work','About BrainChild','Work','Blog','Sitequests','AR Stickers','Instagram','Contacts'];
-
+var inner=['This is BrainChild.work','About BrainChild','Work','Blog','Sitequests','AR Stickers','Instagram','Contacts'];
 var graphics;
 // var spinner=false;
 //var eyeball;
@@ -154,10 +154,6 @@ y+=dy * easing;
 //rotateX(y);
 rotateY(x);
 
-push();
-translate(-width/2,height/4);
-box(10);
-pop();
 //torus();
 //box();
 //translate(0,map(weightControl,100,800,-10,10));
@@ -249,7 +245,7 @@ function rechangeLink(){
 
 }
 function changeContainer(x){
-  container.html('<h2>'+contents[x]+'</h2><p>Welcome to Brainchild.work</p>');
+  container.html('<h2>'+contents[x]+'</h2><p>'+inner[x]+'</p>');
 }
 
 
