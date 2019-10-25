@@ -29,10 +29,12 @@ function preload(){
   brain = loadModel('data/brain2.obj',true);
 
   //Your object was scaled to get the smallest filesize. Use a scale factor of 0.0044953548387097 to get the original size, eg. in three.js:
- //brain = loadModel('data/brain2.obj',true);
- //eyeball = loadImage('data/eye.jpg');
+
 }
 function setup(){
+
+
+
 
 cnv = createCanvas(innerWidth, innerHeight, WEBGL);
 ellipseMode(CENTER);
@@ -53,7 +55,16 @@ container.hide();
 container.position(width/2,height/10);
 container.size(3*width/8,8*height/10);
 cnv.mousePressed(hideContainer);
-
+homeH[0].mouseOver(changeLink0);
+homeH[1].mouseOver(changeLink1);
+homeH[2].mouseOver(changeLink2);
+homeH[3].mouseOver(changeLink3);
+homeH[4].mouseOver(changeLink4);
+homeH[5].mouseOver(changeLink5);
+homeH[6].mouseOver(changeLink6);
+homeH[7].mouseOver(changeLink7);
+for(var i=0;i<8;i++)
+homeH[i].mouseOut(rechangeLink);
 
 //frameRate(24); //for android mobiles
 /*
@@ -157,16 +168,7 @@ model(brain);
 
 
 
-homeH[0].mouseOver(changeLink0);
-homeH[1].mouseOver(changeLink1);
-homeH[2].mouseOver(changeLink2);
-homeH[3].mouseOver(changeLink3);
-homeH[4].mouseOver(changeLink4);
-homeH[5].mouseOver(changeLink5);
-homeH[6].mouseOver(changeLink6);
-homeH[7].mouseOver(changeLink7);
-for(var i=0;i<8;i++)
-homeH[i].mouseOut(rechangeLink);
+
 /*
   texture(eyeball);
   //specularMaterial(255,255,255);
