@@ -17,10 +17,10 @@ var pre;
 var homeH=[];
 var container;
 var link;
-var contents = ['This is BrainChild.work','About BrainChild','Work','Blog','Sitequests','AR Stickers','Instagram','Contacts'];
-var inner=['Welcome to  BrainChild.work','About BrainChild','Work','Blog','Sitequests','AR Stickers','Instagram','Contacts'];
+var contents = ['This is BrainChild.work','About BrainChild','Work','Blog','Sitequests','Contact'];
+var inner=['Welcome to  BrainChild.work','About BrainChild','Work','Blog','Sitequests','Contact'];
 var graphics;
-var logo;
+
 // var spinner=false;
 //var eyeball;
 
@@ -29,7 +29,6 @@ function preload(){
 
   brain = loadModel('data/brain2.obj',true);
 
-  logo=createImg('images/bc-logo.png','BrainChild Logo');
 
   //Your object was scaled to get the smallest filesize. Use a scale factor of 0.0044953548387097 to get the original size, eg. in three.js:
 
@@ -42,8 +41,7 @@ function setup(){
 cnv = createCanvas(innerWidth, innerHeight, WEBGL);
 ellipseMode(CENTER);
 targetSpin=PI*3;
-logo.position(6*width/8,6*height/8);
-logo.size(AUTO , height/8);
+
 for(var i=0;i<6;i++){
   homeH[i]= createElement('h1','This is BrainChild.work');
   homeH[i].position(width/8,(i+2)*height/8);
@@ -143,7 +141,7 @@ if(mouseIsPressed){
    directionalLight(0, 255,230, dirX, dirY, 0.5);
    directionalLight(255, 85, 0, -dirX, -dirY, 0.5);
 
-  specularMaterial(255,10,46);
+  specularMaterial(250,13,90);
 
 
 
