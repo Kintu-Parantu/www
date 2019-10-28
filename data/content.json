@@ -1,0 +1,38 @@
+{
+	"content": [{
+			"head": "This is Brainchild.work",
+			"p": "Welcome to Brainchild.work"
+		},
+		{
+			"head": "About BrainChild",
+			"p": "Welcome to Brainchild.work"
+		},
+    {
+			"head": "Work",
+			"p": "Blah Blah",
+			"container": [{
+				"img": "",
+        "p":"blah blah"
+			}]
+		},
+    {
+			"head": "Blog",
+			"p": "Coming Soon..."
+		},{
+			"head": "Sitequests",
+			"p": "Sitequests are some speculations for methods enabling a Humane Future. The research and story that led to the creation of these can be found <a href='mailto:kushshtss@gmail.com'>here<a/>.",
+			"container": [{
+        "img": "images/blog/profit.jpg",
+        "h":"Pro-Fit",
+        "p":"blah blah"
+			},
+      {
+        "img": "images/blog/profit.jpg",
+        "h":"Pro-Fit",
+        "p":"blah blah"
+      }]
+		},{
+      "head":"Contact",
+        "p":""
+      }]
+}

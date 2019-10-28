@@ -1,7 +1,7 @@
 //draw a spinning brain
 var cnv;
 var check;
-var content=0;
+var content;
 var brain;
 var targetSpin;
 var x=0;
@@ -28,13 +28,14 @@ function preload(){
   //pre=createCanvas(200,200);
 
   brain = loadModel('data/brain2.obj',true);
+  content = loadJSON('data/content.json');
 
 
   //Your object was scaled to get the smallest filesize. Use a scale factor of 0.0044953548387097 to get the original size, eg. in three.js:
 
 }
 function setup(){
-
+console.log(content.content[0]);
 
 
 
@@ -65,6 +66,7 @@ homeH[4].mouseOver(changeLink4);
 homeH[5].mouseOver(changeLink5);
 for(var i=0;i<6;i++)
 homeH[i].mouseOut(rechangeLink);
+
 
 //frameRate(24); //for android mobiles
 /*
@@ -246,7 +248,21 @@ function rechangeLink(){
 
 }
 function changeContainer(x){
-  container.html('<h2>'+contents[x]+'</h2><p>'+inner[x]+'</p>');
+  if(content.content[x].container){
+
+    container.html('<h2>'+content.content[x].head+'</h2><p>'+content.content[x].p+'</p>');
+    for(var i=0;i<content.content[x].container.length;i++){
+      container.html('<div class="add"><h3>'+content.content[x].container[i].h+'</h3><img src="'+content.content[x].container[i].img+'"></img><p>'+content.content[x].container[i].p+'</p></div>',true);
+    }
+    var divs = selectAll('.add');
+    console.log(divs);
+  }
+  else{
+
+      container.html('<h2>'+content.content[x].head+'</h2><p>'+content.content[x].p+'</p>');
+  }
+
+
 }
 
 
