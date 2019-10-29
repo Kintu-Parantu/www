@@ -7,6 +7,7 @@ var targetSpin;
 var x=0;
 var y=0;
 var easing=0.075;
+var addDiv;
 //var easing=0.1; //for android mobiles
 var targetX=0;
 var targetY=0;
@@ -68,6 +69,7 @@ for(var i=0;i<6;i++)
 homeH[i].mouseOut(rechangeLink);
 
 
+
 //frameRate(24); //for android mobiles
 /*
 but1=createButton('<');
@@ -99,6 +101,9 @@ function windowResized(){
  for(var i=0;i<6;i++){
    homeH[i].style(('font-size',width>height?width/height:(height/width))*2+'vh');
 }
+container.position(width/2,height/10);
+container.size(3*width/8,8*height/10);
+
 // but1.position(width/2-width*0.4,height/2);
  //but2.position(width/2+width*0.4,height/2);
 
@@ -253,9 +258,10 @@ function changeContainer(x){
     container.html('<h2>'+content.content[x].head+'</h2><p>'+content.content[x].p+'</p>');
     for(var i=0;i<content.content[x].container.length;i++){
       container.html('<div class="add"><h3>'+content.content[x].container[i].h+'</h3><img src="'+content.content[x].container[i].img+'"></img><p>'+content.content[x].container[i].p+'</p></div>',true);
+      //var divs = selectAll('.add');
+      //divs[i].mousePressed(function(){innerContent(x,i-1)});
     }
-    var divs = selectAll('.add');
-    console.log(divs);
+
   }
   else{
 
@@ -263,6 +269,11 @@ function changeContainer(x){
   }
 
 
+}
+
+function innerContent(x,j){
+  console.log(j);
+  container.html(content.content[x].container[j].article);
 }
 
 

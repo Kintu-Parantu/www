@@ -22,7 +22,7 @@
 font-family: 'rwork';
 src: url('/font/WorkSans-Roman-VF.ttf'); /* IE9 Compat Modes */
 }
-    body {padding: 0; margin: 0; }
+    body {padding: 0; margin: 0; line-height: 1.6;font-family: sans-serif;}
     #p5_loading{width:100%;height:100%;background-color:#0000BC;}
     .loadingclass{
       position: absolute;
@@ -37,9 +37,12 @@ src: url('/font/WorkSans-Roman-VF.ttf'); /* IE9 Compat Modes */
       color:white;
       background-color: #000;
       font-size:5vh;
-      padding: 5px ;
+      padding: 10px ;
     }
-
+    a{
+      color: rgba(250,13,90);
+      text-decoration: none;
+    }
     p{
       font-family: 'rwork';
     }
@@ -47,9 +50,10 @@ src: url('/font/WorkSans-Roman-VF.ttf'); /* IE9 Compat Modes */
         background-color:rgba(255,255,255,0.9);
         color:black;
         border-radius: 5px;
-        padding:20px;
+
         box-shadow: 0px 0px 5px #000000;
         overflow-y: scroll;
+        overflow-x  : none;
     }
     #container::-webkit-scrollbar-track
 {
@@ -68,29 +72,47 @@ src: url('/font/WorkSans-Roman-VF.ttf'); /* IE9 Compat Modes */
 	background-color: #000000;
 }
     #container h2{
+      padding:10px;
       color:black;
       background-color: none;
       font-family: 'rwork';
+      font-size: 6vh;
       font-variation-settings: 'wght' 500;
     }
+    #container h3{
+
+      padding:10px;
+        color:white;
+        background-color: none;
+        font-family: 'rwork';
+        font-size: 4vh;
+        font-variation-settings: 'wght' 300;
+        padding:10px 10px 10px 10px;
+    }
     #container p{
+      padding:10px;
         color:black;
         background-color: none;
         font-family: 'rwork';
         font-variation-settings: 'wght' 300;
     }
     #container .add{
-        color:black;
-        background-color: white;
+        color:white;
+        background-color: black;
         font-family: 'rwork';
-        font-variation-settings: 'wght' 300;
+        font-variation-settings: 'wght' 400;
         width:100%;
         height:auto;
+
         margin-bottom: 10px;
     }
     #container .add>img {
         width:100%;
         height:auto;
+    }
+    #container .add>p {
+        color:white;
+        padding:10px;
     }
 
   </style>

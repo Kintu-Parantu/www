@@ -11,26 +11,52 @@
 			"head": "Work",
 			"p": "Blah Blah",
 			"container": [{
-				"img": "",
-        "p":"blah blah"
-			}]
+          "img": "images/blog/post-it.jpg",
+          "h":"Post-IT Network",
+          "p":"Post-IT network is a network of posts from the social media & ‘post-it’s that users could create for their interests. Using artificial intelligence, machine learning, clustering and semantic analysis, powered by graph data technologies, one could analyze their own data, create new connections, create a self growing board, invite collaborators and propagate solutions. Users could also see the sentiments of the kind of information they are consuming, making them aware of the feelings by their aggregation. This could provoke the user to question their outlook to the world, understand their biases and possibly propel them to find more information that would help them be informed about other outlooks present about the subject at hand. The engine could be used for argumentation as well as connecting to other users for a discussion on the content being shared using six degrees of separation, for allowing like minded people to interact with each other.",
+          "article": "This is another article content about the selected thing."
+        }]
 		},
     {
 			"head": "Blog",
 			"p": "Coming Soon..."
 		},{
 			"head": "Sitequests",
-			"p": "Sitequests are some speculations for methods enabling a Humane Future. The research and story that led to the creation of these can be found <a href='mailto:kushshtss@gmail.com'>here<a/>.",
+			"p": "Sitequests are some speculations for methods enabling a Humane Future. The research and story that led to the conceptualization of these can be found <a href='mailto:kushshtss@gmail.com'>here<a/>.",
 			"container": [{
-        "img": "images/blog/profit.jpg",
-        "h":"Pro-Fit",
-        "p":"blah blah"
+        "img": "images/blog/post-it.jpg",
+        "h":"Post-IT Network",
+        "p":"Post-IT network is a network of posts from the social media & ‘post-it’s that users could create for their interests. Using artificial intelligence, machine learning, clustering and semantic analysis, powered by graph data technologies, one could analyze their own data, create new connections, create a self growing board, invite collaborators and propagate solutions. Users could also see the sentiments of the kind of information they are consuming, making them aware of the feelings by their aggregation. This could provoke the user to question their outlook to the world, understand their biases and possibly propel them to find more information that would help them be informed about other outlooks present about the subject at hand. The engine could be used for argumentation as well as connecting to other users for a discussion on the content being shared using six degrees of separation, for allowing like minded people to interact with each other.",
+        "article": "This is another article content about the selected thing."
+      },
+      {
+        "img": "images/blog/value-train.jpg",
+        "h":"that.is",
+        "p":"Value is a tricky concept. We live in a world where everything is run by or governed by money. However, as humans, we are the judge of utility for our own self. Tangibly, what is at our expense are material and time. A Value converter, that could convert investments and costs of our desires and needs, to things we love and value could help in comparative analysis of our expenses. Users could upload the value of things they love and search, or AI can read that data from a person's transactions (restaurants they like, things they buy frequently, etc.), for possible purchases of products and services in comparison to that value. Users can also declare their dreams, and the app can help them save money for those items in the future, by finding alternate options and saving the difference money in a piggy bank.",
+        "article": "This is the article content about the selected thing."
 			},
       {
         "img": "images/blog/profit.jpg",
         "h":"Pro-Fit",
-        "p":"blah blah"
-      }]
+        "p":"Earlier, people used to barter goods for things they did not have. By having a monetary system, we reduced the mental load of evaluating a purchase, but also grew insensitive to valuing things for their real worth. A profit barter marketplace, where people could barter parts of their profit for other resources that are material or time based, could help people find and use alternate means of capital. These transactions can happen on the profit on a product or service, hence clearing the service provider of the cost of break-even and also generate a limited taxable cost of sale for the government. The barters can be blockchained to enable accountability and transparency and a digital currency can also be introduced to use as an exchange entity. This could be useful especially to NGOs who could use volunteership to their cause instead of money, and get community involvement as well as to volunteers who could assess and learn about the value of their time donated.",
+        "article": "This is the article content about the selected thing."
+			},{
+        "img": "images/blog/bene-fit.jpg",
+        "h":"Bene-Fit",
+        "p":"Bene-fit is an opportunity benefit online marketplace that provides service providers a differential pricing model to add value into the supply chain. The value of art is in the eyes of its beholder. Completely transparent data of the cost of products shall be uploaded, or automatically calculated depending on the cost of living for the service provider. The differential pricing model will start with a base value, and each other increment on it would bring in some value addition, e.g. a base value for a piece of pottery, a discount for locally sourced products that save on shipping, a small amount for a hand-knit bag, another for appreciating the quality of the artisan's work and contributing to the artisan's personal goal, another for a community goal of funding the local school. The platform looks at creating opportunities to increase the benefit in the ecosystem.",
+        "article": "This is the article content about the selected thing."
+			},{
+        "img": "images/blog/2c.jpg",
+        "h":"2¢",
+        "p":"A play on the idiom, 'my 2 cents' and the homophone 'to see', 2¢ is a social media platform for opinion sharing with a twist. Users get a limited amount of currency called *uck (for users to choose a consonant of their liking). For any opinions/ideas/suggestions one shares, they spend 2 *ucks and pay an opinion 1 *uck if to support it. Users scroll up through opinions on topics of their interest, swipe right for an opinion they support and left for opinion they don't like. The main idea is to create and assess value in people’s opinions and help them build their credibility as well as evaluate the value in their opinions socially. With the value as a marker, people could connect with like-minded people or find alternate arguments to a discussion. This may lead to creating an economy of opinion and suggestions. This is for original content and people can get flagged for plagiarism with a relevant reference by community engagement.",
+        "article": "This is the article content about the selected thing."
+			},{
+        "img": "images/blog/meetmaker.jpg",
+        "h":"Meet the Maker",
+        "p":"Tourism today is heavily reliant on internet sources, which has led to overexploitation and overcrowding of famous sites on any location. The app could create an alternate attraction index for a geography by celebrating the craft of that area bringing users to artisans. The app could book or schedule a demo session with the artisan, and also possibly give the travellers the chance to get valuable memorabilia or authentic gifts from that place.",
+        "article": "This is the article content about the selected thing."
+			}
+      ]
 		},{
       "head":"Contact",
         "p":""
