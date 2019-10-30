@@ -257,7 +257,7 @@ function changeContainer(x){
 
     container.html('<h2>'+content.content[x].head+'</h2><p>'+content.content[x].p+'</p>');
     for(var i=0;i<content.content[x].container.length;i++){
-      container.html('<div class="add"><h3>'+content.content[x].container[i].h+'</h3><img src="'+content.content[x].container[i].img+'"></img><p>'+content.content[x].container[i].p+'</p></div>',true);
+      container.html('<div class="add"><h3>'+content.content[x].container[i].h+'</h3>'+content.content[x].container[i].img+'"<p>'+content.content[x].container[i].p+'</p></div>',true);
       //var divs = selectAll('.add');
       //divs[i].mousePressed(function(){innerContent(x,i-1)});
     }
