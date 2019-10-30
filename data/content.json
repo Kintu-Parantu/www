@@ -9,8 +9,19 @@
 		},
     {
 			"head": "Work",
-			"p": "Some of the projects I undertook in the realm of Graphic Design.",
+			"p": "A small collection of the things I've made. These include professional, personal as well as class-room projects I worked on during my design education.",
 			"container": [{
+          "img": "<img src='images/work/sp1.jpg'></img><img src='images/work/sp2.jpg'></img><img src='images/work/sp3.jpg'></img><img src='images/work/sp4.jpg'></img><img src='images/work/sp5.jpg'></img><img src='images/work/sp6.jpg'></img><img src='images/work/sp7.jpg'></img><img src='images/work/sp8.jpg'></img><img src='images/work/sp9.jpg'></img><img src='images/work/sp10.jpg'></img><img src='images/work/sp11.jpg'></img>",
+          "h":"Branding for Specialty Polyfilms",
+          "p":"Branding exploration for Specialty Polyfilms, using the idea of transparency and layers.",
+          "article": "This is another article content about the selected thing."
+        },{
+            "img": "<img src='images/work/pzw1.png'></img><img src='images/work/pzw2.png'></img>",
+            "h":"Branding for Project Zero Waste",
+            "p":"Branding and Identity Design for Project Zero Waste, an initiative providing alternatives that enable a green lifestyle.",
+            "article": "This is another article content about the selected thing."
+          },
+          {
           "img": "<img src='images/work/unlock.jpg'></img>",
           "h":"Unlock Education-Poster",
           "p":"Education is not ensured by the mere possession of tools that enable it; but one has to make the effort of using the tools available to them in order to to educate themselves. While an educated person can be a literate, every literate person cannot be called educated. The poster was created by photographing tiny sculptures made of chalk and graphite of a pencil. The chalk was 9 mm in diameter and pencil was 4B.",
