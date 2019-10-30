@@ -11,9 +11,26 @@
 			"head": "Work",
 			"p": "A small collection of the things I've made. These include professional, personal as well as class-room projects I worked on during my design education.",
 			"container": [{
-      "img": "<img src='images/work/unlock.jpg'></img>",
-      "h":"Unlock Education-Poster",
-      "p":"Education is not ensured by the mere possession of tools that enable it; but one has to make the effort of using the tools available to them in order to to educate themselves. While an educated person can be a literate, every literate person cannot be called educated. The poster was created by photographing tiny sculptures made of chalk and graphite of a pencil. The chalk was 9 mm in diameter and pencil was 4B.",
+      "img": "<img src='images/work/exit.png'></img>",
+      "h":"Digital Illustration",
+      "p":"A Digital Illustration I made: a gentle reminder for the stuck soul.",
+      "article": "This is another article content about the selected thing."
+    },{
+    "img": "<img src='images/work/unlock.jpg'></img>",
+    "h":"Unlock Education-Poster",
+    "p":"Education is not ensured by the mere possession of tools that enable it; but one has to make the effort of using the tools available to them in order to to educate themselves. While an educated person can be a literate, every literate person cannot be called educated. The poster was created by photographing tiny sculptures made of chalk and graphite of a pencil. The chalk was 9 mm in diameter and pencil was 4B.",
+    "article": "This is another article content about the selected thing."
+  },{
+      "img": "<img src='images/work/pzw1.png'></img><img src='images/work/pzw2.png'></img>",
+      "h":"Branding for Project Zero Waste",
+      "p":"Branding and Identity Design for Project Zero Waste, an initiative providing alternatives that enable a green lifestyle.",
+      "article": "This is another article content about the selected thing."
+    },
+
+  {
+      "img": "<img src='images/work/carve1.jpg'></img><img src='images/work/carve2.jpg'></img><img src='images/work/carve3.png'></img><img src='images/work/carve4.jpg'></img>",
+      "h":"Micro Sculptures",
+      "p":"Sculptures made with Chalk smuggled out of classrooms.",
       "article": "This is another article content about the selected thing."
     },
     {
@@ -21,19 +38,7 @@
           "h":"Branding for Specialty Polyfilms",
           "p":"Branding exploration for Specialty Polyfilms, using the idea of transparency and layers.",
           "article": "This is another article content about the selected thing."
-        },{
-            "img": "<img src='images/work/pzw1.png'></img><img src='images/work/pzw2.png'></img>",
-            "h":"Branding for Project Zero Waste",
-            "p":"Branding and Identity Design for Project Zero Waste, an initiative providing alternatives that enable a green lifestyle.",
-            "article": "This is another article content about the selected thing."
-          },
-
-        {
-            "img": "<img src='images/work/carve1.jpg'></img><img src='images/work/carve2.jpg'></img><img src='images/work/carve3.png'></img><img src='images/work/carve4.jpg'></img>",
-            "h":"Micro Sculptures",
-            "p":"Sculptures made with Chalk smuggled out of classrooms.",
-            "article": "This is another article content about the selected thing."
-          }
+        }
         ]
 		},
     {
@@ -41,7 +46,7 @@
 			"p": "Coming Soon..."
 		},{
 			"head": "Sitequests",
-			"p": "Sitequests are some speculations for methods enabling a Humane Future. The research and story that led to the conceptualization of these can be found <a href='mailto:kushshtss@gmail.com'>here<a/>.",
+			"p": "Sitequests are some speculations for methods enabling a Humane Future. The research and story that led to the conceptualization of these can be found <a href='https://issuu.com/kushagra.singh/docs/kushagra_singh_s1601108_vol_1' target='_blank'>here<a/>.",
 			"container": [{
         "img": "<img src='images/blog/post-it.jpg'></img>",
         "h":"Post-IT Network",
