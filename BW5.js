@@ -18,8 +18,8 @@ var pre;
 var homeH=[];
 var container;
 var link;
-var contents = ['This is BrainChild.work','About BrainChild','Work','Blog','Sitequests','Contact'];
-var inner=['Welcome to  BrainChild.work','About BrainChild','Work','Blog','Sitequests','Contact'];
+var contents = ['About BrainChild','Work','Blog','Sitequests','Contact'];
+var inner=['About BrainChild','Work','Blog','Sitequests','Contact'];
 var graphics;
 
 // var spinner=false;
@@ -44,9 +44,9 @@ cnv = createCanvas(innerWidth, innerHeight, WEBGL);
 ellipseMode(CENTER);
 targetSpin=PI*3;
 
-for(var i=1;i<6;i++){
+for(var i=0;i<contents.length;i++){
   homeH[i]= createElement('h1','This is BrainChild.work');
-  homeH[i].position(width/8,(i+2)*height/8);
+  homeH[i].position(width/8,(i+2)*height/7);
   homeH[i].style('font-weight',(i+1)*i);
   homeH[i].mousePressed(conts);
   width>height?width/height:height/width
@@ -59,13 +59,13 @@ container.hide();
 container.position(width/2,height/10);
 container.size(3*width/8,8*height/10);
 cnv.mousePressed(hideContainer);
-//homeH[0].mouseOver(changeLink0);
+homeH[0].mouseOver(changeLink0);
 homeH[1].mouseOver(changeLink1);
 homeH[2].mouseOver(changeLink2);
 homeH[3].mouseOver(changeLink3);
 homeH[4].mouseOver(changeLink4);
-homeH[5].mouseOver(changeLink5);
-for(var i=1;i<6;i++)
+//homeH[5].mouseOver(changeLink5);
+for(var i=0;i<5;i++)
 homeH[i].mouseOut(rechangeLink);
 
 
@@ -98,7 +98,7 @@ function hideContainer(){
 
 function windowResized(){
  resizeCanvas(innerWidth,innerHeight);
- for(var i=1;i<6;i++){
+ for(var i=0;i<5;i++){
    homeH[i].style(('font-size',width>height?width/height:(height/width))*2+'vh');
 }
 container.position(width/2,height/10);
@@ -121,7 +121,7 @@ function draw(){
 
 cnv.mousePressed(mP);
   //loading animation
-for(var i=1;i<6;i++){
+for(var i=0;i<5;i++){
   weightControl = map(sin(frameCount/10.0-i*TWO_PI/8.0),-1,1,0,900);
   //homeH[i].elt.style['font-variation-settings'] = `"wght" ${mouseY}, "wdth" ${mouseX}`;
   //homeH[i].elt.style['font-variation-settings'] = `"wght" ${weightControl}, "wdth" ${weightControl}`;
@@ -129,8 +129,8 @@ for(var i=1;i<6;i++){
 
 }
 
-for(var i=1;i<6;i++){
-  homeH[i].position(width/8+cos(frameCount/10.0-i*TWO_PI/8.0)*10,(i+1)*height/8);
+for(var i=0;i<5;i++){
+  homeH[i].position(width/8+cos(frameCount/10.0-i*TWO_PI/8.0)*10,(i+1)*height/7);
 
 }
 
