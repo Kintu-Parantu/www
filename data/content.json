@@ -8,6 +8,11 @@
 			"head": "Work",
 			"p": "A small collection of the things I've made. These include professional, personal as well as class-room projects I worked on during my design education.",
 			"container": [{
+      "img": "<img src='images/work/mf1.jpg'></img><img src='images/work/mf2.jpg'></img><img src='images/work/mf3.jpg'></img><img src='images/work/mf4.jpg'></img>",
+      "h":"Branding for Monsoon Fiesta 2017",
+      "p":"Competition is not a human instinct, its <i>evolutionary</i>. Branding and Identity Design for Monsoon Fiesta 2017, NID's Annual Cultural Festival: a month long battle between various disciplines.",
+      "article": "This is another article content about the selected thing."
+    },{
       "img": "<img src='images/work/formgen.png'></img>",
       "h":"Outputs from a Form Generator",
       "p":"Small experiments in paper.js with form and composition.",
