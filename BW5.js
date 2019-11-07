@@ -52,12 +52,19 @@ for(var i=0;i<contents.length;i++){
   width>height?width/height:height/width
   if(i%2==0)
   homeH[i].style('font-family','iwork'  );
+  if(width<height)
+  homeH[i].style('font-size','3.5vh'  );
 }
 container= createDiv("");
 container.id('container');
 container.hide();
-container.position(width/2,height/10);
-container.size(3*width/8,8*height/10);
+  container.position(width>height?width/2:width/5,height/10);
+  container.size(width>height?3*width/8:4*width/5,8*height/10);
+
+//container.size(width>height?3*width/8:width,8*height/10);
+//  container.position(0,height/10);
+//  container.size(width,9*height/10);
+
 cnv.mousePressed(hideContainer);
 homeH[0].mouseOver(changeLink0);
 homeH[1].mouseOver(changeLink1);
