@@ -76,6 +76,13 @@ for(var i=0;i<5;i++)
 homeH[i].mouseOut(rechangeLink);
 
 
+homeH[0].mousePressed(function(){changeContainer(0)});
+homeH[1].mousePressed(function(){changeContainer(1)});
+homeH[2].mousePressed(function(){changeContainer(2)});
+homeH[3].mousePressed(function(){changeContainer(3)});
+homeH[4].mousePressed(function(){changeContainer(4)});
+
+
 
 //frameRate(24); //for android mobiles
 /*
@@ -201,7 +208,7 @@ function changeLink0(){
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[0]);
-  changeContainer(0);
+  //changeContainer(0);
 
 }
 function changeLink1(){
@@ -209,48 +216,48 @@ function changeLink1(){
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[1]);
-  changeContainer(1);
+  //changeContainer(1);
 }function changeLink2(){
   check=true;
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[2]);
-  changeContainer(2);
+  //changeContainer(2);
 }
 function changeLink3(){
   check=true;
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[3]);
-  changeContainer(3);
+  //changeContainer(3);
 }
 function changeLink4(){
   check=true;
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[4]);
-  changeContainer(4);
+  //changeContainer(4);
 }
 function changeLink5(){
   check=true;
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[5]);
-  changeContainer(5);
+  //changeContainer(5);
 }
 function changeLink6(){
   check=true;
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[6]);
-  changeContainer(6);
+  //changeContainer(6);
 }
 function changeLink7(){
   check=true;
   this.style('background-color','#fff');
   this.style('color','#000');
   this.html(contents[7]);
-  changeContainer(7);
+  //changeContainer(7);
 }
 function rechangeLink(){
 
