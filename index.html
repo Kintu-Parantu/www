@@ -1,5 +1,13 @@
 <html>
 <head>
+  <title>BrainChild.work | Diaphonized Portfolio</title>
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Kushagra's Portfolio">
+  <meta name="keywords" content="Graphic Design, UI, Programming, Design, Systems">
+  <meta name="author" content="Kushagra Singh">
+
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151576308-1"></script>
 <script>
@@ -12,6 +20,12 @@
 
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+-->
+  <meta name="author" content="Kushagra Singh">
+
   <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
   <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
   <script language="javascript" type="text/javascript" src="libraries/p5.dom.js"></script>
@@ -32,8 +46,19 @@
 font-family: 'rwork';
 src: url('/font/WorkSans-Roman-VF.ttf'); /* IE9 Compat Modes */
 }
-    body {padding: 0; margin: 0; line-height: 1.6;font-family: sans-serif;}
-    #p5_loading{width:100%;height:100%;background-color:#0000BC;}
+@keyframes grow {
+  0% {
+    font-variation-settings: 'wght' 100;
+  }
+  100% {
+    transform:translateX(10px);
+    font-variation-settings: 'wght' 900;
+  }
+}
+    body {font-kerning:normal ;padding: 0; margin: 0; line-height: 1.6;font-family: sans-serif;background: rgb(9,9,121);
+background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(6,6,142,1) 30%, rgba(0,0,188,1) 100%);}
+    #p5_loading{width:100%;height:100%;background: rgb(9,9,121);
+background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(6,6,142,1) 30%, rgba(0,0,188,1) 100%);}
     .loadingclass{
       position: absolute;
     top: 50%;
@@ -47,7 +72,10 @@ src: url('/font/WorkSans-Roman-VF.ttf'); /* IE9 Compat Modes */
       color:white;
       background-color: #000;
       font-size:5vh;
-      padding: 10px ;
+      font-variation-settings: 'wght' 900;
+      padding: 15px ;
+      animation: grow 1.5s ease-in-out alternate infinite;
+      margin:0;
     }
     a{
       color: rgba(250,13,90);
@@ -55,8 +83,13 @@ src: url('/font/WorkSans-Roman-VF.ttf'); /* IE9 Compat Modes */
     }
     p{
       font-family: 'rwork';
+      font-weight: 600;
     }
-    #container{
+    #workc{
+
+      background-color: black;
+    }
+    .container{
         background-color:rgba(255,255,255,0.9);
         color:black;
         border-radius: 5px;
@@ -64,54 +97,76 @@ src: url('/font/WorkSans-Roman-VF.ttf'); /* IE9 Compat Modes */
         box-shadow: 0px 0px 5px #000000;
         overflow-y: scroll;
         overflow-x  : none;
+        z-index:3;
     }
-    #container::-webkit-scrollbar-track
+    .container::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0);
+  border-radius: 12px;
 	background-color: #000000;
 }
 
-#container::-webkit-scrollbar
+.container::-webkit-scrollbar
 {
 	width: 6px;
 	background-color: #000000;
 }
 
-#container::-webkit-scrollbar-thumb
+.container::-webkit-scrollbar-thumb
 {
-	background-color: #FFFFFF;
+	background-color: rgba(250,13,90);
+  border-radius: 12px;
+  width:6px;
+  height:6px;
 }
-    #container h2{
-      padding:10px;
+    .container h2{
+      padding:15px;
       color:black;
       background-color: none;
       font-family: 'rwork';
       font-size: 6vh;
       font-variation-settings: 'wght' 500;
     }
-    #container h3{
+    .container h3{
 
-      padding:10px;
+      padding:15px;
         color:white;
         background-color: none;
         font-family: 'rwork';
         font-size: 4vh;
-        font-variation-settings: 'wght' 300;
+        font-variation-settings: 'wght' 400;
         padding:10px 10px 10px 10px;
+        margin:0;
     }
-    #container img{
+
+    .container h4{
+
+      padding:15px;
+        color:white;
+        background-color: none;
+        font-family: 'rwork';
+        font-size: 3vh;
+        font-variation-settings: 'wght' 400;
+        padding:10px 10px 10px 10px;
+        margin:0;
+    }
+    .container img{
       width:100%;
       height:auto;
     }
-    #container p{
-      padding:10px;
+    .container p{
+      padding:20px;
         color:black;
         background-color: none;
         font-family: 'rwork';
         font-variation-settings: 'wght' 300;
         overflow-x  : none;
     }
-    #container .add{
+    .piccaption{
+      padding:5px;
+      text-align: center;
+    }
+    .container .add{
         color:white;
         background-color: black;
         font-family: 'rwork';
@@ -123,15 +178,57 @@ src: url('/font/WorkSans-Roman-VF.ttf'); /* IE9 Compat Modes */
         margin-bottom: 10px;
         overflow-x  : none;
     }
-    #container .add>img {
+    .container .add>img {
         width:100%;
         height:auto;
     }
-    #container .add>p {
+    .container .add>p {
         color:white;
-        padding:10px;
+        padding:20px;
+    }
+    .container > #cross{
+      display: block;
+      position:sticky;
+      position: -webkit-sticky;
+      width:48px;
+      height:48px;
+      top:0px;
+      left:100%;
+      z-index: 5;
+    }
+    .bt{
+      font-family: 'rwork';
+      font-size: 2.5vh;
+      font-variation-settings: 'wght' 500;
+      width:50%;
+      color:white;
+      background-color: black;
+      padding:10px;
+      margin:5% 25% 5% 25%;
+      box-shadow: 0px 0px 10px rgba(255, 255, 255, 1), 0px 4px 15px rgba(0, 0, 0, 0.15);
+      border-radius: 50px;
+      border:0;
+    }
+    .bt:hover{
+      background-color: white;
+      color:black;
+      box-shadow: none;
+    }
+    .bt:active,
+.bt:focus,
+.bt:focus:active {
+  background-image: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+    @media only screen and (max-width: 600px)  {
+      .loadingclass{
+        width:40%;
+      }
     }
 
+    }
   </style>
 
   <meta name="theme-color" content="#000">
@@ -140,7 +237,8 @@ src: url('/font/WorkSans-Roman-VF.ttf'); /* IE9 Compat Modes */
 <body>
   <div id="p5_loading" >
 
-    <img src="images/bclogo.gif" alt="" class="loadingclass">
+    <img src="images/load.gif" alt="" class="loadingclass">
+
 <!--
     <svg width="300" height="300"
      xmlns="http://www.w3.org/2000/svg" version="1.1">

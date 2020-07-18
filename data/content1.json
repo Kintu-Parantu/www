@@ -1,0 +1,197 @@
+{
+	"content": [
+		{
+			"head": "About BrainChild",
+			"p": "Systems are always of interest and planning and making things that work have always been a thrill for me. My love for making connections, in theories, techniques, and even sad jokes encouraged me to pursue design. Pursuing a degree in Computer Science Engineering, my understanding that I like programming and I have an interest in design reversed, and thus I pursued a Masters in Graphic Design at National Institute of Design, Ahmedabad. I enjoy working on different challenges, with different material, and that is what I explore and put up in this space called Brainchild.work."
+		},
+		{
+			"head": "Systems",
+			"p": "A collection of System design projects, both tangible and intangible.",
+			"container": [{
+				"cover":"images/work/modcover.png",
+		      "img": "<img src='images/work/mod/1.jpg'></img><img src='images/work/mod/2.jpg'></img><img src='images/work/mod/3.jpg'></img><img src='images/work/mod/4.jpg'></img><img src='images/work/mod/5.jpg'></img><img src='images/work/mod/6.jpg'></img><img src='images/work/mod/7.jpg'></img><img src='images/work/mod/8.jpg'></img><img src='images/work/mod/9.jpg'></img><img src='images/work/mod/10.jpg'></img><h4 style='padding-top:30px;'>Post-IT Network</h4><img src='images/blog/post-it.jpg'></img><p>Post-IT network is a network of posts from the social media & ‘post-it’s that users could create for their interests. Using artificial intelligence, machine learning, clustering and semantic analysis, powered by graph data technologies, one could analyze their own data, create new connections, create a self growing board, invite collaborators and propagate solutions. Users could also see the sentiments of the kind of information they are consuming, making them aware of the feelings by their aggregation. This could provoke the user to question their outlook to the world, understand their biases and possibly propel them to find more information that would help them be informed about other outlooks present about the subject at hand. The engine could be used for argumentation as well as connecting to other users for a discussion on the content being shared using six degrees of separation, for allowing like minded people to interact with each other.</p><h4>that.is</h4><img src='images/blog/Value-train.jpg'></img><p>Value is a tricky concept. We live in a world where everything is run by or governed by money. However, as humans, we are the judge of utility for our own self. Tangibly, what is at our expense are material and time. A Value converter, that could convert investments and costs of our desires and needs, to things we love and value could help in comparative analysis of our expenses. Users could upload the value of things they love and search, or AI can read that data from a person's transactions (restaurants they like, things they buy frequently, etc.), for possible purchases of products and services in comparison to that value. Users can also declare their dreams, and the app can help them save money for those items in the future, by finding alternate options and saving the difference money in a piggy bank.</p><h4>Pro-Fit</h4><img src='images/blog/profit.jpg'></img><p>Earlier, people used to barter goods for things they did not have. By having a monetary system, we reduced the mental load of evaluating a purchase, but also grew insensitive to valuing things for their real worth. A profit barter marketplace, where people could barter parts of their profit for other resources that are material or time based, could help people find and use alternate means of capital. These transactions can happen on the profit on a product or service, hence clearing the service provider of the cost of break-even and also generate a limited taxable cost of sale for the government. The barters can be blockchained to enable accountability and transparency and a digital currency can also be introduced to use as an exchange entity. This could be useful especially to NGOs who could use volunteership to their cause instead of money, and get community involvement as well as to volunteers who could assess and learn about the value of their time donated.</p><h4>Bene-Fit</h4><img src='images/blog/bene-fit.jpg'></img><p>Bene-fit is an opportunity benefit online marketplace that provides service providers a differential pricing model to add value into the supply chain. The value of art is in the eyes of its beholder. Completely transparent data of the cost of products shall be uploaded, or automatically calculated depending on the cost of living for the service provider. The differential pricing model will start with a base value, and each other increment on it would bring in some value addition, e.g. a base value for a piece of pottery, a discount for locally sourced products that save on shipping, a small amount for a hand-knit bag, another for appreciating the quality of the artisan's work and contributing to the artisan's personal goal, another for a community goal of funding the local school. The platform looks at creating opportunities to increase the benefit in the ecosystem.</p><h4>2¢</h4><img src='images/blog/2c.jpg'></img><p>A play on the idiom, 'my 2 cents' and the homophone 'to see', 2¢ is a social media platform for opinion sharing with a twist. Users get a limited amount of currency called *uck (for users to choose a consonant of their liking). For any opinions/ideas/suggestions one shares, they spend 2 *ucks and pay an opinion 1 *uck if to support it. Users scroll up through opinions on topics of their interest, swipe right for an opinion they support and left for opinion they don't like. The main idea is to create and assess value in people’s opinions and help them build their credibility as well as evaluate the value in their opinions socially. With the value as a marker, people could connect with like-minded people or find alternate arguments to a discussion. This may lead to creating an economy of opinion and suggestions. This is for original content and people can get flagged for plagiarism with a relevant reference by community engagement.</p><h4>Meet the Maker</h4><img src='images/blog/meetmaker.jpg'></img><p>Tourism today is heavily reliant on internet sources, which has led to overexploitation and overcrowding of famous sites on any location. The app could create an alternate attraction index for a geography by celebrating the craft of that area bringing users to artisans. The app could book or schedule a demo session with the artisan, and also possibly give the travellers the chance to get valuable memorabilia or authentic gifts from that place.</p>",
+		      "h":"Conception of Ministry of Design",
+		      "p":"Designing a system to enable a humane ecosystem and eventually, a humane future. These are excerpts from my graduation thesis, for my Master’s at NID.",
+		      "article": "This project explores the possibilities that our current world provides or promises, to find solutions for a humane future. Using ‘information’ as the medium for change, it delves into research through design, creating a pool of solutions through study and interviews and consolidating answers that would lead to the transformation of ‘Ministry of Design’ from speculation to a real-world entity. This includes identifying the core values of the system, how would they be implemented, exercised and communicated by the brand. Following are some excerpts of research and speculations for methods enabling a Humane Future. The research and story that led to the conceptualization of these can be found <a href='https://issuu.com/kushagra.singh/docs/kushagra_singh_s1601108_vol_1' target='_blank'>here</a>."
+		    },{
+					"cover":"images/work/Cullab/cover.gif",
+						"img": "<img src='images/work/Cullab/system/1.jpg'></img><img src='images/work/Cullab/system/2.jpg'></img><img src='images/work/Cullab/system/3.jpg'></img><img src='images/work/Cullab/system/4.jpg'></img><img src='images/work/Cullab/system/5.jpg'></img><img src='images/work/Cullab/system/6.jpg'></img><img src='images/work/Cullab/system/7.jpg'></img><img src='images/work/Cullab/system/8.jpg'></img><img src='images/work/Cullab/system/9.jpg'></img><img src='images/work/Cullab/system/10.jpg'></img><img src='images/work/Cullab/system/11.jpg'></img><img src='images/work/Cullab/system/12.jpg'></img><img src='images/work/Cullab/system/13.jpg'></img><img src='images/work/Cullab/system/14.jpg'></img><img src='images/work/Cullab/system/15.jpg'></img><img src='images/work/Cullab/system/16.jpg'></img><img src='images/work/Cullab/system/17.jpg'></img><img src='images/work/Cullab/system/18.jpg'></img><img src='images/work/Cullab/system/19.jpg'></img><img src='images/work/Cullab/system/20.jpg'></img><img src='images/work/Cullab/system/21.jpg'></img><img src='images/work/Cullab/system/22.jpg'></img><img src='images/work/Cullab/system/23.jpg'></img><img src='images/work/Cullab/system/24.jpg'></img><img src='images/work/Cullab/system/25.jpg'></img><img src='images/work/Cullab/system/26.jpg'></img><img src='images/work/Cullab/system/27.jpg'></img><img src='images/work/Cullab/system/28.jpg'></img><img src='images/work/Cullab/system/29.jpg'></img>",
+						"h":"Cullab",
+						"p":"System Design for a maker-space for cooking on college campuses, aimed at building a community around the cooking experience, increasing ease, approachability, fun, with a little help of technology. This project was done as a classroom exercise at NID, in <a href='https://al.nd.edu/news/latest-news/social-design-course-challenges-students-from-notre-dame-and-india-to-use-creativity-to-tackle-a-global-problem/' target='_blank'>collaboration</a> with Therese Nelligan and Takeyra Stewart from University of Notre Dame, USA.",
+						"article": "The theme of the project was decided to be sustainability by our faculty. The initial brief was to define sustainability for ourselves and our context, and come up with a design brief and solution that addresses the points raised by us through research and experimentation. The project duration was 8 weeks."
+					},
+				{
+					"cover":"images/work/TDG/tdg1.png",
+			      "img": "<img src='images/work/TDG/1.jpg'></img><img src='images/work/TDG/2.jpg'></img><img src='images/work/TDG/3.jpg'></img><img src='images/work/TDG/4.jpg'></img><img src='images/work/TDG/5.jpg'></img><img src='images/work/TDG/6.jpg'></img><img src='images/work/TDG/7.jpg'></img><img src='images/work/TDG/8.jpg'></img><img src='images/work/TDG/9.jpg'></img><img src='images/work/TDG/10.jpg'></img><img src='images/work/TDG/11.jpg'></img><img src='images/work/TDG/12.jpg'></img><img src='images/work/TDG/13.jpg'></img><img src='images/work/TDG/14.jpg'></img><img src='images/work/TDG/16.jpg'></img><img src='images/work/TDG/17.jpg'></img><img src='images/work/TDG/18.jpg'></img><img src='images/work/TDG/19.jpg'></img><img src='images/work/TDG/20.jpg'></img><img src='images/work/TDG/21.jpg'></img><img src='images/work/TDG/tdg1.png'></img><img src='images/work/TDG/tdg4.png'></img><img src='images/work/TDG/tdg6.png'></img><img src='images/work/TDG/tdg7.png'></img><img src='images/work/TDG/tdg9.png'></img><img src='images/work/TDG/tdg11.png'></img><img src='images/work/TDG/tdg14.png'></img><img src='images/work/TDG/tdg15.png'></img><img src='images/work/TDG/tdg16.png'></img><img src='images/work/TDG/tdg19.png'></img><img src='images/work/TDG/tdg20.png'></img><img src='images/work/TDG/ui1.png'></img><img src='images/work/TDG/ui2.png'></img><img src='images/work/TDG/ui3.png'></img><img src='images/work/TDG/ui4.png'></img><img src='images/work/TDG/ui5.png'></img><img src='images/work/TDG/ui6.png'></img>",
+			      "h":"Typography Design Guide",
+			      "p":"A plugin concept for Adobe products, designed to help users enhance the functionality of their typographic decisions for various contexts, while learning more about the cause and effect of their aesthetic decisions.",
+			      "article": "Following are excerpts from the research and process employed in the creation of the design solution. The idea here was not to create another standalone entity, but to integrate the solution into the currently used workflow of a majority of the users, in this case, being the Abode Suite. The visualization was thus done for Adobe Illustrator, to better set the context of the application of the plugin. The idea of a plugin was to further ensure scalability to other softwares in the future. The project duration was 10 weeks."
+			    },
+					{
+						"cover":"images/work/snitch/cover.jpeg",
+				      "img": "<img src='images/work/snitch/1.jpeg'></img><img src='images/work/snitch/2.jpeg'></img><img src='images/work/snitch/3.jpeg'></img><img src='images/work/snitch/4.jpeg'></img><img src='images/work/snitch/5.jpeg'></img><img src='images/work/snitch/6.jpeg'></img><img src='images/work/snitch/7.jpeg'></img><img src='images/work/snitch/8.jpeg'></img><img src='images/work/snitch/9.jpeg'></img><img src='images/work/snitch/10.jpeg'></img><img src='images/work/snitch/11.jpeg'></img><img src='images/work/snitch/12.jpeg'></img><img src='images/work/snitch/13.jpeg'></img><img src='images/work/snitch/14.jpeg'></img><img src='images/work/snitch/15.jpeg'></img><img src='images/work/snitch/16.jpeg'></img><img src='images/work/snitch/17.jpeg'></img><img src='images/work/snitch/18.jpeg'>",
+				      "h":"Snitch",
+				      "p":"Snitch is a concept for a Crowd-sourced Decentralized System to aggregate and validate reported evidence on Wildlife Crimes. The project was Top 3 in the UNDP Secure Himalaya Hackathon 2019.",
+				      "article": "Not everyone can report wildlife crimes, but everyone can spot one. Snitch uses technology available in a regular smartphone to create a repository of data for various analyses."
+				    }
+      ]
+		},
+    {
+			"head": "Branding",
+			"p": "Various branding projects and concepts I've done over the years.",
+			"container": [{
+				"cover":"images/work/TD/cover.png",
+					"img": "<img src='images/work/TD/TD1.png'></img><img src='images/work/TD/TD2.png'></img><img src='images/work/TD/TD3.png'></img><img src='images/work/TD/TD4.png'></img><img src='images/work/TD/TD5.png'></img><img src='images/work/TD/TD6.png'></img>",
+					"h":"Typography Day 2018 Logo Competition",
+					"p":"Typography Day is an international event that features workshops on Typography and Calligraphy as well as conferences devoted to addressing issues faced by type designers, type users and type educators. The theme for 2018 was 'Beauty, Form and Function in Typography.'",
+					"article": "Typography Day is an international event that features workshops on Typography and Calligraphy as well as conferences devoted to addressing issues faced by type designers, type users and type educators. The theme for 2018 was 'Beauty, Form and Function in Typography.'"
+			},
+			{
+				"cover":"images/work/WFI/cover.png",
+					"img": "<img src='images/work/WFI/1.jpg'></img><img src='images/work/WFI/2.png'></img><img src='images/work/WFI/3.png'></img><img src='images/work/WFI/4.png'></img><img src='images/work/WFI/5.png'></img><img src='images/work/WFI/6.png'></img><img src='images/work/WFI/7.png'></img><img src='images/work/WFI/8.png'></img><img src='images/work/WFI/9.png'></img><img src='images/work/WFI/10.png'></img><img src='images/work/WFI/11.png'></img><img src='images/work/WFI/12.png'></img><img src='images/work/WFI/13.jpg'></img><img src='images/work/WFI/14.jpg'></img><img src='images/work/WFI/15.jpg'></img>",
+					"h":"World Food India 2017- Concept",
+					"p":"Visual Identity for World Food India, an international conclave of food processing industries focused at G2G, G2B and B2B dialogue and growth. This project was done as a classroom exercise at NID.",
+					"article": "World Food India is an international event which is going to be organised by the Ministry of Food Processing Industries, Government of India, in New Delhi in November of 2017. The event would enable and facilitate partnerships between Indian and foreign businesses with a view to attracting investment in food processing sector and retail trading of food products."
+			},
+		    {
+					"cover":"images/work/specialty/sp3.jpg",
+		          "img": "<img src='images/work/specialty/sp1.jpg'></img><img src='images/work/specialty/sp2.jpg'></img><img src='images/work/specialty/sp3.jpg'></img><img src='images/work/specialty/sp4.jpg'></img></img><img src='images/work/specialty/sp6.jpg'></img><img src='images/work/specialty/sp7.jpg'></img><img src='images/work/specialty/sp8.jpg'></img><img src='images/work/specialty/sp9.jpg'></img><img src='images/work/specialty/sp10.jpg'></img><img src='images/work/specialty/sp11.jpg'></img>",
+		          "h":"Specialty Polyfilms",
+		          "p":" Visual Identity and Collateral concepts for Specialty Polyfilms Pvt. Ltd. a leader in multi specialty plastic film research and production.",
+		          "article": "Branding exploration for Specialty Polyfilms, using the idea of transparency and layers."
+		        },
+		{
+			"cover":"images/work/pzw/pzw2.png",
+				"img": "<img src='images/work/pzw/pzw1.png'></img><img src='images/work/pzw/pzw2.png'></img></img><img src='images/work/pzw/pzw3.jpg'></img></img><img src='images/work/pzw/pzw4.jpg'></img></img><img src='images/work/pzw/pzw5.jpg'></img>",
+				"h":"Project Zero Waste",
+				"p":"Branding and Identity Design for Project Zero Waste, an initiative providing alternatives that enable a green lifestyle.",
+				"article": "This is another article content about the selected thing."
+			},
+			{
+				"cover":"images/work/mf/mfcover.jpg",
+      "img": "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://player.vimeo.com/video/263898264?autoplay=1&title=0&portrait=0' style='position:absolute;top:0;left:0;width:100%;height:100%;' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe></div><script src='https://player.vimeo.com/api/player.js'></script><img src='images/work/mf/mf1.jpg'></img><img src='images/work/mf/mf2.jpg'></img><img src='images/work/mf/mf3.jpg'></img><img src='images/work/mf/mf4.jpg'></img>",
+      "h":"Monsoon Fiesta 2017- Branding & Merchandise",
+      "p":"Competition is not a human instinct, its <i>evolutionary</i>. Branding and Identity Design for Monsoon Fiesta 2017, NID's Annual Cultural Festival: a month long battle between various disciplines.",
+      "article": "Competition is not a human instinct, its <i>evolutionary</i>. Branding and Identity Design for Monsoon Fiesta 2017, NID's Annual Cultural Festival: a month long battle between various disciplines."
+    },
+			    {
+						"cover":"images/work/Cullab/cover.gif",
+			          "img": "<img src='images/work/Cullab/branding/1.jpg'></img><img src='images/work/Cullab/branding/2.jpg'></img><img src='images/work/Cullab/branding/3.jpg'></img><img src='images/work/Cullab/branding/4.jpg'></img><img src='images/work/Cullab/branding/5.jpg'></img><img src='images/work/Cullab/branding/6.jpg'></img>",
+			          "h":"Cul-lab",
+			          "p":"Branding exploration for Specialty Polyfilms, using the idea of transparency and layers.",
+			          "article": "This is another article content about the selected thing."
+			        }
+			]
+		},
+		{
+			"head": "Visuals & More",
+			"p": "A small collection of the things I've made. These include professional, personal as well as class-room projects I've worked or contributed to.",
+			"container": [{
+				"cover":"images/work/dash/cover.jpg",
+					"img": "<img src='images/work/dash/1.jpg'></img><img src='images/work/dash/2.jpg'></img><img src='images/work/dash/3.jpg'></img><img src='images/work/dash/4.jpg'></img>",
+					"h":"UI for a Consumer Tracking Dashboard",
+					"p":"Designing a dashboard that allows users to measure, manage, and monitor brand movements.",
+					"article": "The brief was to create a UI that could illustrate the possibilities of data to provide users to create better campaigns for their brands. A clean and concise layout with charts and graphics that summarise data efficiently was created to provide insights on the go."
+				},
+		{
+			"cover":"images/work/relief/cover.jpg",
+				"img": "<img src='images/work/relief/0.jpg'></img><img src='images/work/relief/1.jpg'></img><img src='images/work/relief/2.jpg'></img><img src='images/work/relief/3.jpg'></img><img src='images/work/relief/4.jpg'></img><img src='images/work/relief/5.jpg'></img><img src='images/work/relief/6.jpg'></img><img src='images/work/relief/7.jpg'></img>",
+				"h":"Relief Printing @ NID Print Labs",
+				"p":"A collection of prints made during the department elective 'What a Relief!' at NID Print Labs.",
+				"article": "The course was focused on creating relief prints using the print technologies at the NID Print Lab. This involved experimentation with the Letter Press as well as manual prints, which started off as a basic sketch idea and was developed into different plates. Since the process was mostly manual, it allowed for various degrees of customizability and variations, letting us create a new print each time. The materials used were sunboard and MDF."
+			},
+			{
+			"cover":"images/work/syringe/cover.jpg",
+    "img": "<img src='images/work/syringe/1.png'></img><img src='images/work/syringe/2.jpg'></img><img src='images/work/syringe/cover.jpg'></img>",
+    "h":"Inject",
+    "p":"Poster and Infographic created with same object but covering different themes. Created as a classroom project at NID.",
+    "article": "The object selected for the project was a syringe and the topics covered were drug abuse and vaccines, a duality of the application of the device."
+  },{
+	"cover":"images/work/verbalnonverbal/cover.jpg",
+		"img": "<img src='images/work/verbalnonverbal/1.jpg'></img><img src='images/work/verbalnonverbal/2.jpg'></img><img src='images/work/verbalnonverbal/cover.jpg'>",
+		"h":"Consumption and Carbon Footprint",
+		"p":"Posters on human consumption and carbon footprint. Created for a classroom project at NID.",
+		"article": "The brief was to create a verbal and non-verbal poster for the selected theme. Both the posters follow a literal approach to visualization. For the verbal poster, the inspiration was a Rangoli, a symbol of prosperity and good luck, shown defaced by walking over it. For the non verbal poster, the earth is shown squeezed dry."
+	},{
+"cover":"",
+"img": "<img src='images/work/talespin.jpg'></img>",
+"h":"Website Design for TalesSpin",
+"p":"Website Design for Talespin Pvt. Ltd., founded by a group of journalists, creative writers, broadcast professionals & filmmakers passionate about storytelling. Visit the website <a href='http://talespin.co.in/' target='_blank'>here</a>.",
+"article": ""
+},{
+"cover":"",
+"img": "<img src='images/work/tarang.jpg'></img>",
+"h":"Website Development and Design for Tarang 2015",
+"p":"Website Design and Development for Tarang 2015, the Cultural Festival of Lady Shri Ram College, New Delhi. The theme for the year was pop art, so the entire website was created as a comic book for people to flip through. Find the archived website <a href='Tarang/home.html' target='_blank'>here</a>.",
+"article": ""
+},{
+		"cover":"images/work/btj/cover.gif",
+		"img": "<img src='images/work/btj/1.jpg'></img><img src='images/work/btj/2.jpg'></img><img src='images/work/btj/3.jpg'></img><img src='images/work/btj/4.jpg'></img><img src='images/work/btj/5.jpg'></img><img src='images/work/btj/6.jpg'></img><img src='images/work/btj/7.jpg'></img><img src='images/work/btj/8.jpg'></img><img src='images/work/btj/9.jpg'></img><img src='images/work/btj/10.jpg'></img><img src='images/work/btj/11.jpg'></img><img src='images/work/btj/12.jpg'></img><img src='images/work/btj/13.jpg'></img><img src='images/work/btj/14.jpg'></img><img src='images/work/btj/15.jpg'></img><img src='images/work/btj/16.jpg'></img><img src='images/work/btj/17.jpg'></img><img src='images/work/btj/18.jpg'></img><img src='images/work/btj/19.jpg'></img><img src='images/work/btj/20.jpg'></img><img src='images/work/btj/21.jpg'></img><img src='images/work/btj/22.jpg'></img><img src='images/work/btj/23.jpg'></img><img src='images/work/btj/24.jpg'></img><img src='images/work/btj/25.jpg'></img><img src='images/work/btj/26.jpg'></img><img src='images/work/btj/27.jpg'></img><img src='images/work/btj/28.jpg'></img><img src='images/work/btj/29.jpg'></img><img src='images/work/btj/30.jpg'></img><img src='images/work/btj/31.jpg'></img><img src='images/work/btj/32.jpg'></img><img src='images/work/btj/33.jpg'></img><img src='images/work/btj/34.jpg'></img><img src='images/work/btj/35.jpg'></img><img src='images/work/btj/36.jpg'></img><img src='images/work/btj/37.jpg'></img><img src='images/work/btj/38.jpg'></img><img src='images/work/btj/39.jpg'></img>",
+		"h":"Boojho to Jane!",
+		"p":"Research, ideation and illustrations for a game app for the promotion of hindi idioms and proverbs, with and eye at educating masses about the water crisis.",
+		"article": "The theme of our batch's first Design Project at NID was water. We were encouraged to expand on the theme and create various ramifications so as to find an area of interest for a brief. Following is my journey through the project, with research, directions and ideation of the final outcome. The project was 6 weeks long."
+	},{
+		"cover":"",
+		"img": "<img src='images/work/Rorschach.gif'></img>",
+		"h":"Watchmen",
+		"p":"A small tribute animation to one of the best Graphic Novels ever written.",
+		"article": ""
+	},{
+		"cover":"images/work/GDBox/cover.jpg",
+		"img": "<video poster='images/work/GDBox/cover.jpg' autoplay width='100%' loop><source src='images/work/GDBox/GD boxx.mp4' type='video/mp4'></video><p class='piccaption'><i>Proof of concept for the display</i></p><img src='images/work/GDBox/gdbox.jpg'</img><p class='piccaption'><i>The final display in all its glory</i></p>",
+		"h":"Graphic Design Display Box for NID Convocation 2017",
+		"p":"Planning and Concept for the Graphic Design Display at NID for Convocation 2017. The implementation and execution was a team effort between M.Des 2016 and B.Des 2015, with a lot of help from the craftsmen at NID.",
+		"article": "Every year, the Graphic Design Display box of NID invites a change, the new batch creates and curates the display for Convocation, showcasing all the work graphic design students do during their tenure at NID. The theme for our year was reflections, unanimously decided by the new batch and faculty. My mind went towards physics: to use the wonder of mirrors to create an interactive piece where viewers could move around to reveal different images in reflections applied to different sides of the central pieces. Quickly, I created a prototype to convey the idea, and the team got together to execute. The batch of GDUG 2015 came up with the idea to accentuate the space with well crafted geometric extrusions, elevating the volume of the space."
+	},
+	{
+			"cover":"images/work/genus/cover.jpg",
+    "img": "<h4> Homo Consumericus (Latin: Consumerist Person)</h4><img src='images/work/genus/1.jpg'></img><p>These successors of the Homo Sapiens are a result of mutations in the social animal and its need to consume. They are not agile, and can continue to consume almost anything conveniently available to them. They rarely leave their nests but can be spotted around malls and food joints.</p><h4>Pisci Aquaportus (Latin: Water-carrying fish)</h4><img src='images/work/genus/2.jpg'></img><p>This species of fish is allegedly responsible for populating various inland water systems by carrying eggs and larvae in its body cavity. The fish is amphibious in nature and carries the larvae and eggs by filling itself with water and rolling towards newer water bodies. On reaching the new waters, it dives in and slowly releases the new beings after gradually matching the surrounding temperature.</p><img src='images/work/genus/anthroman.gif'></img><img src='images/work/genus/fishy.gif'></img><img src='images/work/genus/3.jpeg'></img>",
+    "h":"Genus: Huminova",
+    "p":"Terracota pieces created during Anthropomorphism in Motion, Open Elective 2017, NID. The objective was to create anthropomorphic water vessels inspired from ancient or furturist lifeforms.",
+    "article": "During the elective, we studied various earthenware created over centuries, starting from the ancient civilizations to contemporary art. With this learning, I conceptualized beings of the future, the next evolution of human beings as well as a fish species which evolved in reponse to the said evolution."
+  },
+
+
+  {
+		"cover":"images/work/carve/ccover.jpg",
+      "img": "<img src='images/work/carve/1.jpg'></img><img src='images/work/carve/2.jpg'></img><img src='images/work/carve/3.jpg'></img><img src='images/work/carve/carve1.jpg'></img><img src='images/work/carve/carve2.jpg'></img><img src='images/work/carve/carve3.png'></img><img src='images/work/carve/carve4.jpg'></img>",
+      "h":"Micro Sculptures",
+      "p":"Sculptures made with Chalk smuggled out of classrooms.",
+      "article": "Just some sculptures made with regular classroom chalk."
+    },
+		{
+				"cover":"",
+	    "img": "<img src='images/work/unlock.jpg'></img>",
+	    "h":"Unlock Education",
+	    "p":"Education is not ensured by the mere possession of tools that enable it; but one has to make the effort of using the tools available to them in order to to educate themselves. While an educated person can be a literate, every literate person cannot be called educated. The poster was created by photographing tiny sculptures made of chalk and graphite of a pencil. The chalk was 9 mm in diameter and pencil was 4B.",
+	    "article": "This is another article content about the selected thing."
+	  },
+{
+	"cover":"images/work/dhamaal/cover.jpg",
+"img": "<img src='images/work/dhamaal/1.jpg'></img><img src='images/work/dhamaal/2.jpg'></img><img src='images/work/dhamaal/3.jpg'><p>The presence of the Siddis is considered auspicious by the local Muslim community and they are invited to grace various occasions; from weddings to welcoming newborns. They call their performance “Dhamaal” which colloquially means something like an uproar, generally as a form of merriment. Dhamaal comprises of street performances which display their strength and valour, dance, song, as well as prayers, known as 'zikr'. After the day is done, the community comes together and proceeds to the venue, where they perform to entertain not only the people, but also their superstitions and beliefs.</p></img><img src='images/work/dhamaal/4.jpg'></img><img src='images/work/dhamaal/5.jpg'></img><img src='images/work/dhamaal/6.jpg'></img><img src='images/work/dhamaal/7.jpg'></img><img src='images/work/dhamaal/8.jpg'></img><img src='images/work/dhamaal/9.jpg'></img><img src='images/work/dhamaal/10.jpg'></img>",
+"h":"Dhamaal",
+"p":"My contributions to a Photostory about the Siddhi Community in Ahmedabad. This project was done as a classroom exercise at NID, in collaboration with Sindhura Ravindra and Armelle Exposito.",
+"article": "The Siddis are originally from the Bantu people of Southern Africa brought to India by the Portuguese as slaves. The Siddi community is currently estimated at around 50,000–60,000 individuals, with Karnataka, Gujarat and Hyderabad in India and Makran and Karachi in Pakistan as the main population centres.<br/>The Siddi community is also known by different names such as Habshi and Badsha. The Siddis in Gujarat were initially presented to the Prince of Junagadh as slaves. They used to take up the religion of their masters so naturally, a lot of them took up Islam as their religion in Gujarat.<br/>During the time of the Nawabs, the Siddis were the gatekeepers of Ahmedabad. Presently, they do all sorts of jobs throughout the day. The following pictures are the memories from an evening spent knowing the Siddis residing off the Relief Road in Ahmedabad."
+},
+		{
+		"cover":"",
+		"img": "<img src='images/work/lightwrite.jpg'></img>",
+		"h":"Lightwrite",
+		"p":"Prototype and testing for an app that lets your write words in long exposure photographs.",
+		"article": ""
+	},
+		{
+		"cover":"",
+		"img": "<img src='images/work/formgen.png'></img>",
+		"h":"Outputs from a Form Generator",
+		"p":"Small experiments in paper.js with form and composition.",
+		"article": ""
+	}
+        ]
+		}
+
+		,{
+      "head":"Contact",
+        "p":"I'd love to hear from you! Please shoot a mail <a href='mailto:kushshtss@gmail.com'>here</a>.<br/> Or catch up with me on <a href='https://www.linkedin.com/in/kushagra-singh-59462710/' target='_blank'>LinkedIn</a> or <a href='https://www.instagram.com/kintu.parantu/' target='_blank'>Instagram</a>"
+      }]
+}
