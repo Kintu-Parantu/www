@@ -3,7 +3,7 @@ var video;
 var vScale = 18;
 
 function setup() {
-  createCanvas(640, 480);
+  createCanvas(1080, 780);
   pixelDensity(1);
   video = createCapture(VIDEO);
   video.size(width/vScale, height/vScale);

@@ -133,8 +133,7 @@ but2.position(width/2+width*0.4,height/2);
 but2.mousePressed(buttonAction2);
 
 */
-
-
+s
 }
 
 function conts(){
